@@ -47,7 +47,7 @@ function ScrollToHash() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<HomePage />} />
