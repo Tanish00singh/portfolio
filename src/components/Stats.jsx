@@ -34,7 +34,6 @@ export default function Stats() {
         >
           <StatCardGithub />
           <StatCardLeetcode />
-          <StatCardCodechef />
           <StatCardAcademics />
         </motion.div>
       </motion.div>
@@ -126,34 +125,7 @@ const StatCardLeetcode = () => {
   );
 };
 
-const StatCardCodechef = () => {
-  const c = statsData.codechef;
-  return (
-    <TerminalFrame url={c.url.replace('https://', '')}>
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-full bg-orange-500/10 border border-orange-500/30 flex items-center justify-center text-orange-300">
-            <Award size={20} />
-          </div>
-          <div>
-            <div className="font-mono font-bold text-lg text-white">{c.handle}</div>
-            <div className="text-xs text-gray-400">{c.tagline}</div>
-          </div>
-        </div>
-        <div className="text-right">
-          <div className="text-3xl font-extrabold text-orange-400">{c.stars}</div>
-          <div className="text-xs text-gray-400 font-mono">{c.rating} rating</div>
-        </div>
-      </div>
-      <div className="mt-5 grid grid-cols-2 gap-2">
-        <MiniStat label="Problems" value={c.problems} />
-        <MiniStat label="Contests" value={c.contests} />
-      </div>
-      <BadgeRow title="Profile Highlights" badges={c.badges} />
-      <FooterRow cmd="$ cc --profile_" cta="View_CC" href={c.url} />
-    </TerminalFrame>
-  );
-};
+
 
 const StatCardAcademics = () => {
   const a = statsData.academics;

@@ -17,7 +17,7 @@ export const profile = {
     'I build scalable solutions using Java, Python, C++, Node.js, and modern web stacks with a strong focus on deep learning, data structures, database design, and measurable real-world impact. I explore AI-assisted workflows, computer vision, and LSTM/YOLO-based systems to ship production-grade, low-latency inference pipelines.',
   pills: ['AI / ML', 'Deep Learning', 'Full Stack', 'DSA / DBMS'],
   aboutParagraph:
-    'A Software Engineer and MCA student at NIT Trichy with a strong foundation in Computer Applications, specializing in building AI-powered systems, deep learning pipelines, and scalable web applications. Experienced in full-stack development, computer vision using YOLOv8 and pose estimation, real-time dashboards, and backend services. I leverage modern frameworks like Spring Boot, Node.js, Pandas, NumPy, and Socket.IO to build intelligent, end-to-end solutions. I secured All India Rank 4 in NIMCET 2024 and have solved 400+ DSA problems across HackerRank, LeetCode, GFG, and CodeChef, blending strong algorithmic thinking with practical engineering to ship reliable, performant software.',
+    'A Software Engineer and MCA student at NIT Trichy with a strong foundation in Computer Applications, specializing in building AI-powered systems, deep learning pipelines, and scalable web applications. Experienced in full-stack development, computer vision using YOLOv8 and pose estimation, real-time dashboards, and backend services. I leverage modern frameworks like Spring Boot, Node.js, Pandas, NumPy, and Socket.IO to build intelligent, end-to-end solutions. I secured All India Rank 4 in NIMCET 2024 and have solved 400+ DSA problems across HackerRank, LeetCode, and GFG, blending strong algorithmic thinking with practical engineering to ship reliable, performant software.',
   stats: [
     { value: '04', label: 'Total Projects', note: 'AI, ML & full-stack work' },
     { value: '400+', label: 'DSA Problems', note: 'Solved across platforms' },
@@ -180,7 +180,7 @@ export const hubCards = [
   {
     title: 'DSA Lab',
     description:
-      '400+ problems solved across HackerRank, LeetCode, GeeksforGeeks, and CodeChef — focusing on data structures, algorithms, and competitive programming.',
+      '400+ problems solved across HackerRank, LeetCode, and GeeksforGeeks — focusing on data structures, algorithms, and competitive programming.',
     cta: 'Explore',
     color: 'green',
     href: '#stats'
@@ -210,16 +210,7 @@ export const statsData = {
     score: 1580,
     badges: ['50 Days Badge', 'Algorithm I', 'Dynamic Programming', 'Graph Theory I']
   },
-  codechef: {
-    handle: 'tanish_singh',
-    url: 'https://www.codechef.com/users/tanish_singh',
-    tagline: 'Competitive Coder',
-    rating: 1642,
-    stars: '3★',
-    problems: 180,
-    contests: 22,
-    badges: ['Problem Solver', 'Contest Participant', 'Rank Holder']
-  },
+
   academics: {
     handle: 'NIT Trichy — MCA',
     url: '#',
